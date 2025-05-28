@@ -1,7 +1,7 @@
-package com.arithmeticoperations;
+package com.operations;
 
-public class arithmeticoperator
-{
+public class ArithmeticOperations {
+
     public static void main(String[] args){
         int num1 = 520;
         int num2 = 50;

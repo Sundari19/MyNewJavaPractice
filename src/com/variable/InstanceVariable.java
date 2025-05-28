@@ -1,6 +1,6 @@
 package com.variable;
 
-public class Variable {
+public class InstanceVariable {
 
     public String bookName = "Wings of Fire";
     public String authorName = "Abdul Kalam";
@@ -8,7 +8,7 @@ public class Variable {
 
     public static void main(String[] args)
     {
-    Variable obj = new Variable();
+    InstanceVariable obj = new InstanceVariable();
         System.out.println(obj.bookName);
         System.out.println(obj.authorName);
         System.out.println(libraryName);
