@@ -16,23 +16,23 @@ public class Ifladder {
         if(age<7){
             cost= perTicketCost - (.10*perTicketCost);
             System.out.println("You will get 10% discount " + name);
-            System.out.println("Amount you have to pay is " + cost);
+
         }
         else if(age >=7 && age< 20){
             cost= perTicketCost - (.15*perTicketCost);
             System.out.println("You will get 15% discount " + name);
-            System.out.println("Amount you have to pay is " + cost);
+
         }
         else if(age >=20 && age< 40){
             cost= perTicketCost - (.20*perTicketCost);
             System.out.println("You will get 20% discount " + name);
-            System.out.println("Amount you have to pay is " + cost);
+
         }
         else {
             cost= perTicketCost - (.25*perTicketCost);
             System.out.println("You will get 25% discount " + name);
-            System.out.println("Amount you have to pay is " + cost);
-        }
 
+        }
+        System.out.println("Amount you have to pay is " + cost);
     }
 }
