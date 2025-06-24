@@ -5,6 +5,8 @@ public class Method_Example {
     public static void main(String[] args){
         System.out.println("This is main method");
         Method_Example obj = new Method_Example();
+        Method_Calling obj2 = new Method_Calling();
+        obj2.examples();
         obj.exampleInstance();
     }
     public void exampleInstance(){
